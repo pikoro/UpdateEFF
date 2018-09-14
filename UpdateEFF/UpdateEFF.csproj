@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>UpdateEFF</RootNamespace>
     <AssemblyName>UpdateEFF</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>UpdateEFF.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +55,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="EFFs\N501DN_DAL0015_180816_FRA_ATL_F180816074242.eff" />
+    <None Include="EFFs\N501DN_DAL0042_180726_BOS_JFK_F180726103224.eff" />
+    <None Include="EFFs\N501DN_DAL0046_171026_JFK_AMS_F171026202851.eff" />
+    <None Include="EFFs\N501DN_DAL0069_170905_PDX_NRT_F170905193213.eff" />
+    <None Include="EFFs\N501DN_DAL0086_171012_DTW_FRA_F171013161422.eff" />
+    <None Include="EFFs\N501DN_DAL0087_171012_FRA_DTW_F171012133954.eff" />
+    <None Include="EFFs\N501DN_DAL0101_171012_ATL_EZE_F171013162000.eff" />
+    <None Include="EFFs\N501DN_DAL0132_180726_DTW_AMS_F180726110204.eff" />
+    <None Include="EFFs\N501DN_DAL0139_171013_AMS_DTW_F171013153823.eff" />
+    <None Include="EFFs\N501DN_DAL0207_171211_SEA_NRT_F171211192840.eff" />
+    <None Include="EFFs\N501DN_DAL0483_180726_JFK_BOS_F180726104112.eff" />
+    <None Include="EFFs\N501DN_DAL0588_180815_PVG_SEA_F180815101225.eff" />
+    <None Include="EFFs\N501DN_DAL0932_180726_PDX_SEA_F180726104248.eff" />
+    <None Include="EFFs\N501DN_DAL1348_180726_SEA_PDX_F180726093619.eff" />
+    <None Include="EFFs\N501DN_DAL1469_180726_SFO_LAX_F180726095724.eff" />
+    <None Include="EFFs\N501DN_DAL1684_170810_DTW_MSP_F170810210205.eff" />
+    <None Include="EFFs\N501DN_DAL2850_180726_LAX_SFO_F180726102056.eff" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

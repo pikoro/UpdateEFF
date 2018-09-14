@@ -82,8 +82,8 @@ namespace UpdateEFF
             try { doc.Load(xmlFile); }
             catch (System.IO.FileNotFoundException) { Console.WriteLine("! EFF XML file not found"); }
 
-            string[] DateStamp = doc["EFUSUB.SubFolder.SubFolder.Document"];
-	        foreach($element in $DateStamp){
+            string DateStamp = doc["EFUSUB.SubFolder.SubFolder.Document"];
+	        /*foreach($element in $DateStamp){
 		        try {$id = $element.id.ToString()
             } catch {"! Element does not exist"}
 		        try {if($debug){"Date Before: " + $element.UpdateDateTime.ToString()}} catch {"! Could not convert null value"}
@@ -96,6 +96,7 @@ namespace UpdateEFF
 	        try{$XmlDocument.Save($xmlFile)}
 	        catch{"! Unable to Save $xmlfile"}
 	        if($debug){"Date set to $newDate"}
+            */
         }
     }
 }
